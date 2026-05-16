@@ -48,7 +48,9 @@ button:hover {
 
 body {
     background: linear-gradient(to right, #4facfe, #00f2fe);
-    height: 100vh;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     font-family: Arial;
     color: azure;
 }
